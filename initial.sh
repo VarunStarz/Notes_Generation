@@ -14,8 +14,10 @@ if ! command -v git &> /dev/null; then
     fi
 fi
 
-git clone 
+git clone https://github.com/VarunStarz/Notes_Generation.git
 cd vidtotxt
 
 chmod +x config.sh
 ./config.sh
+
+code .
